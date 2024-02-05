@@ -22,7 +22,7 @@ async function fetchAnActivity(){
   var fetchedSuccessfully = false;
   var response;
   while(!fetchedSuccessfully){
-    response = await fetch(toQueryString("http://www.boredapi.com/api/activity/"),{
+    response = await fetch(toQueryString("https://www.boredapi.com/api/activity/"),{
       method: "GET",
       mode: "cors",
     });
