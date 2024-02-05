@@ -1,0 +1,1 @@
+var suggestion = `<div class="idea">[Idea]</div>`;

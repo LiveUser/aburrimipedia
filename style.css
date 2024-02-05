@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.column{
+  display: block;
+}
+.row{
+  display: inline-block;
+}
+#appbar{
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: calc(100% - 40px);
+  background-color: brown;
+  color: white;
+}
+#suggestionsBox{
+  width: 100%;
+}
+.idea{
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-right: 20px;
+  background-color: brown;
+  color: white;
+  padding: 20px;
+  width: calc(100% - 40px);
+  text-align: center;
+}
+#loadMore{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: blueviolet;
+  color: white;
+  width: fit-content;
+}
